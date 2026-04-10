@@ -1,51 +1,235 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Saw Issac - Software Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saw Issac | Software Developer</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --bg: #f9fafb;
+            --white: #ffffff;
+            --border: #e5e7eb;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: var(--white);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-light);
+            margin-top: 5px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            border-left: 4px solid var(--primary);
+            padding-left: 15px;
+            margin-top: 40px;
+            color: var(--text-dark);
+            text-transform: uppercase;
+        }
+
+        .job-card {
+            margin-bottom: 30px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+
+        .job-title {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: var(--primary);
+        }
+
+        .job-company {
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        .job-date {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            font-style: italic;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-category strong {
+            display: block;
+            margin-bottom: 5px;
+            color: var(--primary);
+        }
+
+        @media (max-width: 600px) {
+            .container { padding: 20px; }
+            h1 { font-size: 1.8rem; }
+            .job-header { flex-direction: column; }
+        }
+
+        @media print {
+            body { background: none; padding: 0; }
+            .container { box-shadow: none; max-width: 100%; }
+        }
+    </style>
 </head>
 <body>
-    <h1>Saw Issac</h1>
-    <p><strong>Software Developer</strong> | Thailand</p>
 
-    <h2>About Me</h2>
-    <p>Highly skilled software development professional with talents for software design, development, and integration. Expert in web insurance applications and using AI to enhance workflow productivity.</p>
+<div class="container">
+    <header>
+        [cite_start]<h1>Saw Issac [cite: 1]</h1>
+        <div class="subtitle">Software Developer | [cite_start]Thailand [cite: 1]</div>
+    </header>
 
-    <h2>Experience</h2>
-    <ul>
-        <li>
-            <strong>Junior Software Developer</strong> | Axuranze Pte Ltd (Aug 2024 – July 2025)
+    <section>
+        <h2>About Me</h2>
+        <p>
+            [cite_start]Highly skilled software development professional bringing enormous talents for software design, development and integration[cite: 3]. 
+            [cite_start]Offering advanced knowledge of in-demand programming languages with a background writing code for web insurance applications and using AI to enhance workflow productivity[cite: 4]. 
+            [cite_start]Complex problem-solver with an analytical and driven mindset dedicated to achieving demanding objectives according to tight schedules[cite: 5].
+        </p>
+    </section>
+
+    <section>
+        <h2>Work Experience</h2>
+
+        <div class="job-card">
+            <div class="job-header">
+                <div>
+                    [cite_start]<span class="job-title">Junior Software Developer [cite: 10]</span><br>
+                    <span class="job-company">AXURANZE PTE LTD | [cite_start]Bangkok, Thailand [cite: 9]</span>
+                </div>
+                [cite_start]<span class="job-date">Aug 2024 – July 2025 [cite: 7, 8]</span>
+            </div>
             <ul>
-                <li>Developed management dashboards (Lottery, Game, Campaigns) and mobile donation apps.</li>
-                <li>Tech Stack: Next.js, Expo, Supabase, Pug, and Webpack.</li>
-                <li>Testing: Jest and Playwright.</li>
+                [cite_start]<li>Mainly focused on building web and mobile applications[cite: 12].</li>
+                [cite_start]<li>Developed Lottery, Lunchpad, Game platform, and Campaign management dashboards[cite: 13].</li>
+                [cite_start]<li>Created Campaign donation mobile applications[cite: 13].</li>
+                [cite_start]<li>Built an Email template engine using Nextjs, Pug, and Webpack[cite: 14, 16, 18].</li>
+                [cite_start]<li>Implemented Supabase as the backend API[cite: 17].</li>
+                [cite_start]<li>Experienced with Unit testing (Jest) for functional testing and Playwright for UI testing[cite: 19].</li>
+                [cite_start]<li>Utilized Superset and Tooljet low-code platforms for rapid application building[cite: 20, 21].</li>
             </ul>
-        </li>
-        <li>
-            <strong>Junior Software Developer</strong> | Aceplus Solutions Co., Ltd (April 2023 – April 2024)
-            <ul>
-                <li>Focused on insurance web apps and ticket management dashboards.</li>
-                <li>Tech Stack: Next.js, Express, and Laravel.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>UI Designer</strong> | SS Branded Export Fashion (Nov 2023 – Dec 2023)
-            <ul>
-                <li>Designed promotional materials and product packaging.</li>
-            </ul>
-        </li>
-    </ul>
+        </div>
 
-    <h2>Education</h2>
-    <ul>
-        <li><strong>Diploma: Web Engineering</strong> - Metro IT & Japanese Language Centre (2021)</li>
-        <li><strong>Bachelor of Science: Zoology</strong> - Dagon University (First Year, 2019)</li>
-    </ul>
+        <div class="job-card">
+            <div class="job-header">
+                <div>
+                    [cite_start]<span class="job-title">Junior Software Developer [cite: 27]</span><br>
+                    <span class="job-company">ACEPLUS SOLUTIONS COMPANY LIMITED | [cite_start]Yangon, Myanmar [cite: 25]</span>
+                </div>
+                [cite_start]<span class="job-date">April 2023 – April 2024 [cite: 24, 26]</span>
+            </div>
+            <ul>
+                [cite_start]<li>Developed Insurance web applications and dashboards[cite: 29, 30].</li>
+                [cite_start]<li>Created an Employee ticket management beta dashboard[cite: 31].</li>
+                [cite_start]<li>Used Nextjs for web frontend and Express/Laravel for backend APIs[cite: 33, 34].</li>
+                [cite_start]<li>Managed collaboration through Azure and Microsoft platforms[cite: 37].</li>
+            </ul>
+        </div>
 
-    <h2>Languages</h2>
-    <ul>
-        <li>English: Intermediate</li>
-        <li>Japanese: N4</li>
-    </ul>
+        <div class="job-card">
+            <div class="job-header">
+                <div>
+                    [cite_start]<span class="job-title">UI Designer [cite: 42]</span><br>
+                    <span class="job-company">SS BRANDED EXPORT FASHION | [cite_start]Yangon, Myanmar [cite: 41]</span>
+                </div>
+                [cite_start]<span class="job-date">Nov 2023 – Dec 2023 [cite: 38, 39]</span>
+            </div>
+            <ul>
+                [cite_start]<li>Collaborated with content and marketing teams for brand compliance[cite: 43].</li>
+                [cite_start]<li>Created artwork for product packaging, banners, signs, and promotional materials[cite: 45, 47].</li>
+                [cite_start]<li>Coordinated with external vendors to verify quality of printed materials[cite: 44].</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <strong>Frontend & Mobile</strong>
+                [cite_start]Nextjs, React Native (Expo), Pug, Webpack [cite: 16, 18, 33]
+            </div>
+            <div class="skill-category">
+                <strong>Backend & Database</strong>
+                [cite_start]Supabase, Express, Laravel [cite: 17, 34]
+            </div>
+            <div class="skill-category">
+                <strong>QA & Tools</strong>
+                [cite_start]Jest, Playwright, Firebase, Google Tag Manager [cite: 19, 22, 35, 36]
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <ul>
+            [cite_start]<li><strong>Diploma: Web Engineering [cite: 49][cite_start]</strong> – Metro IT & Japanese Language Centre (2021) [cite: 50]</li>
+            [cite_start]<li><strong>Bachelor of Science: Zoology [cite: 56][cite_start]</strong> – Dagon University (First Year, 2019) [cite: 56]</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Languages</h2>
+        <ul>
+            [cite_start]<li><strong>English:</strong> Intermediate [cite: 52, 53]</li>
+            [cite_start]<li><strong>Japanese:</strong> N4 [cite: 54, 55]</li>
+        </ul>
+    </section>
+</div>
+
 </body>
 </html>
+```
