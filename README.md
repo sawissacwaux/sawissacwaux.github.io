@@ -1,47 +1,50 @@
-# Professional Profile Comparison
-
-## Saw Issac
+# SAW ISSAC
 **Software Developer** | [cite_start]Thailand [cite: 1]
 
-### Summary
-[cite_start]Highly skilled software development professional with a focus on web insurance applications and AI integration for workflow productivity[cite: 3, 4]. [cite_start]Experienced in complex problem-solving and delivering code on tight schedules[cite: 5].
+## ABOUT ME
+[cite_start]Highly skilled software development professional bringing enormous talents for software design, development and integration[cite: 3]. [cite_start]Offering advanced knowledge of in-demand programming languages with a background writing code for web insurance applications and using AI to enhance workflow productivity[cite: 4]. [cite_start]Complex problem-solver with an analytical and driven mindset dedicated to achieving demanding objectives according to tight schedules[cite: 5].
 
-### Experience
-* **Junior Software Developer** at Axuranze Pte Ltd (Bangkok, Thailand) | [cite_start]Aug 2024 – July 2025 [cite: 7, 8, 9, 10]
-    * [cite_start]Developed lottery, game, and campaign management dashboards[cite: 13].
-    * [cite_start]Built campaign donation mobile applications[cite: 13].
-* **Junior Software Developer** at Aceplus Solutions (Yangon, Myanmar) | [cite_start]April 2023 – April 2024 [cite: 24, 25, 26, 27]
-    * [cite_start]Focused on insurance web apps and ticket management systems[cite: 29, 30, 31].
-* **UI Designer** at SS Branded Export Fashion | [cite_start]Nov 2023 – Dec 2023 [cite: 38, 39, 41, 42]
+## WORK EXPERIENCE
 
-### Technical Skills
-* [cite_start]**Frontend:** Next.js, React Native (Expo), Pug, Webpack [cite: 16, 18, 33]
-* [cite_start]**Backend:** Supabase, Express, Laravel [cite: 17, 34]
-* [cite_start]**Testing/Tools:** Jest, Playwright, Superset, Tooljet, Firebase, YouTrack [cite: 19, 20, 21, 22, 23]
+### Junior Software Developer
+**AXURANZE PTE LTD | Bangkok, Thailand**
+[cite_start]*Aug 2024 – July 2025* [cite: 7, 8, 9, 10]
 
-### Education
-* [cite_start]**Diploma in Web Engineering:** Metro IT & Japanese Language Centre (2021) [cite: 49, 50]
-* [cite_start]**Bachelor of Science (Zoology):** Dagon University (First Year, 2019) [cite: 56]
+* [cite_start]Mainly focused on building web and mobile applications[cite: 12].
+* [cite_start]Developed Lottery, Lunchpad, Game platform, and Campaign management dashboards[cite: 13].
+* [cite_start]Created Campaign donation mobile applications[cite: 13].
+* [cite_start]Built an Email template engine using Pug and Webpack[cite: 14, 18].
+* [cite_start]Used Next.js for web frontend server side and Expo React Native for mobile and web[cite: 16].
+* [cite_start]Implemented Supabase as the backend API[cite: 17].
+* [cite_start]Experienced with Unit testing (Jest) for functional testing and Playwright for UI testing[cite: 19].
+* [cite_start]Utilized Superset and Tooljet low-code platforms for faster requirement integration and building applications[cite: 20, 21].
+* [cite_start]Used Firebase Google Analytics and App Distribution for QA testing[cite: 22].
+* [cite_start]Collaborated using Youtrack management platform and Google tools[cite: 23].
 
----
+### Junior Software Developer
+**ACEPLUS SOLUTIONS COMPANY LIMITED | Yangon, Myanmar**
+[cite_start]*April 2023 – April 2024* [cite: 24, 25, 26, 27]
 
-## Robert P. Batzinger
-**Praeceptor Emeritus** | Chiang Mai, Thailand
+* [cite_start]Developed Insurance web applications and dashboards[cite: 29, 30].
+* [cite_start]Created an Employee ticket management beta dashboard[cite: 31].
+* [cite_start]Used Next.js for web frontend server side[cite: 33].
+* [cite_start]Developed backend APIs using Express and Laravel[cite: 34].
+* [cite_start]Experienced with Google Tag Manager for analytics and Jest for functional testing[cite: 35, 36].
+* [cite_start]Managed collaboration through Azure and Microsoft platforms[cite: 37].
 
-### Summary
-Computer Solutions Developer with decades of experience spanning Data Science, Natural Language Processing (NLP), and Web Community Development. Former Acting Dean and IT Director at Payap University.
+### UI Designer
+**SS BRANDED EXPORT FASHION | Yangon, Myanmar**
+[cite_start]*Nov 2023 – Dec 2023* [cite: 38, 39, 41, 42]
 
-### Experience Highlights
-* **Academic Leadership:** Acting Dean (Faculty of Science) and IT Director at Payap University.
-* **Technical Leadership:** Software Development Lead for Thailand Bible Society and Director for United Bible Society Asia-Pacific Regional Center.
-* **Research:** Post-Doctoral Fellow at University of Wisconsin-Madison; Research Assistant at Johns Hopkins University.
+* [cite_start]Collaborated with content and marketing teams to confirm design compliance with brand guidelines[cite: 43].
+* [cite_start]Coordinated with external vendors and suppliers to verify quality and accuracy of printed materials[cite: 44].
+* [cite_start]Created artwork for product packaging and promotional materials[cite: 45].
+* [cite_start]Developed creative designs for print materials, banners, and signs[cite: 47].
 
-### Technical Skills
-* **Programming:** Extensive list including C, C++, Python, Java, R, Ruby on Rails, Fortran, and various Assemblers.
-* **Data & Systems:** Data Science, Big Data Analytics, NLP, and OS Command shells (UNIX, Linux, Android).
-* **Version Control:** GIT, Subversion, CVS, RCS.
+## EDUCATION
+* **Diploma: Web Engineering** | [cite_start]Metro IT & Japanese Language Centre (July 2021)[cite: 49, 50].
+* **Bachelor of Science: Zoology** | [cite_start]Dagon University - Yangon, Myanmar (2019 - First Year)[cite: 56].
 
-### Education
-* **PhD Pathobiology:** Johns Hopkins University
-* **MS Applied Mathematics and Computer Science:** Indiana University - South Bend
-* **SB Chemistry:** Massachusetts Institute of Technology
+## LANGUAGES
+* [cite_start]**English**: Intermediate[cite: 52, 53].
+* [cite_start]**Japanese**: N4[cite: 54, 55].
